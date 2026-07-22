@@ -4,23 +4,17 @@ Este é um projeto prático desenvolvido em Java com o objetivo de consolidar os
 
 O sistema simula o funcionamento de uma tag de pedágio pré-paga (como Sem Parar, Veloe ou Via Verde), gerenciando recargas, passagens por cancelas de pedágio com cobrança de taxa de conveniência e exibição dos dados formatados do cliente.
 
----
-
 ## Demonstração de Uso
 
 Veja abaixo o sistema rodando e interagindo com o usuário diretamente no terminal:
 
 ![Demonstração de Uso](img/demo.gif)
 
----
-
 ## Diagrama da Classe Tag
 
 A estrutura abaixo representa a modelagem da classe `Tag` desenvolvida no pacote `entities`, demonstrando graficamente a divisão estruturada entre os atributos privados, construtores e métodos públicos.
 
 ![Diagrama de Classe da Tag](img/tag_class_diagram.png)
-
----
 
 ## Conceitos de POO Aplicados
 
@@ -33,7 +27,10 @@ Durante o desenvolvimento deste projeto, foram aplicados os seguintes pilares e 
 * **Métodos de Negócio Coesos:** Toda a lógica de manipulação de estados está encapsulada na própria entidade. Por exemplo, o método `payToll` deduz o valor da tarifa somado a uma taxa administrativa fixa de conveniência de **$ 1.50**.
 * **Organização em Pacotes:** Separação clara de responsabilidades entre as classes do domínio (`entities`) e a classe de ponto de entrada/interação (`application`).
 
----
+## Próximos Passos
+Como este repositório reflete minha exata jornada de aprendizado atual, ainda não implementei validações de dados ou tratamento de exceções (Exceptions) — portanto, o programa confia que o usuário inserirá os tipos de dados corretos no terminal.
+
+Assim que eu avançar nos estudos e dominar as tratativas de exceções em Java, retornarei a este repositório com novas atualizações para tornar a aplicação totalmente robusta e à prova de falhas.
 
 ## Estrutura do Projeto
 
